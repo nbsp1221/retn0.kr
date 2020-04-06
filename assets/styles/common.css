@@ -49,14 +49,18 @@ a:hover {
 	content: 'Ø';
 	margin-right: 15px;
 }
+.main-contents p {
+	color: #8C8C8C;
+	font-size: 0.8em;
+}
 .main-contents ul {
-	padding-left: 50px;
+	padding-left: 25px;
+}
+.main-contents > ul {
+	padding-left: 45px !important;
 }
 .main-contents li {
 	margin: 15px 0;
-}
-.main-contents ul ul {
-	padding-left: 30px;
 }
 
 /* Footer */
